@@ -8,7 +8,7 @@
 import Foundation
 
 protocol HomeRepository {
-    mutating func getPokemons() async throws -> ListPokemonResponse
+    func getPokemons() async throws -> ListPokemonResponse
     func getPokemonImage(url: String) async throws -> (Data, Int)
     func getPokemonColor(index: Int) async throws -> String
 }

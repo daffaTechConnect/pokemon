@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct HomeRepositoryDefault: HomeRepository {
+class HomeRepositoryDefault: HomeRepository {
     
     private var page = "https://pokeapi.co/api/v2/pokemon?limit=20&offset=0"
     
-    mutating func getPokemons() async throws -> ListPokemonResponse {
+    func getPokemons() async throws -> ListPokemonResponse {
         let url = URL(string: self.page)
         let urlRequest = URLRequest(url: url!)
         let (data, _) = try await URLSession.shared.data(for: urlRequest)

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct HomeUseCaseDefault: HomeUseCase {
+class HomeUseCaseDefault: HomeUseCase {
     
     var repository: HomeRepository
     
@@ -15,7 +15,8 @@ struct HomeUseCaseDefault: HomeUseCase {
         self.repository = repository
     }
     
-    mutating func fetchPokemons() async throws -> [ListPokemon] {
+    func fetchPokemons() async throws -> [ListPokemon] {
+        //TODO: use combine for the next development
         var listPokemonWithImage: [ListPokemon] = []
         
         let fetchDataPokemon = try await repository.getPokemons()

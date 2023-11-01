@@ -3,4 +3,176 @@
    uuid = "E1A6B341-4DA5-4992-A0C0-571233B0F0A8"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D0E184C-4AF9-47CB-BBEC-93D1422676F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PokemonTests/Network/Repository/HomeRepositorySpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58ACD89A-9152-446B-B9C8-44DAF4DEA56B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokemon/Network/UseCase/HomeUseCaseDefault.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35">
+            <Locations>
+               <Location
+                  uuid = "58ACD89A-9152-446B-B9C8-44DAF4DEA56B - 263db4d1eb91341d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in closure #1 (Pokemon.PokemonData) -&gt; () in closure #1 (Swift.Optional&lt;Pokemon.ListPokemonResponse&gt;) -&gt; () in Pokemon.HomeUseCaseDefault.fetchPokemons(page: Swift.String, callback: (Swift.Array&lt;Pokemon.ListPokemon&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pokemon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewierowati/Documents/Pokemon/Pokemon/Pokemon/Network/UseCase/HomeUseCaseDefault.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "630">
+               </Location>
+               <Location
+                  uuid = "58ACD89A-9152-446B-B9C8-44DAF4DEA56B - 263db4d1eb91341d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in closure #1 (Pokemon.PokemonData) -&gt; () in closure #1 (Swift.Optional&lt;Pokemon.ListPokemonResponse&gt;) -&gt; () in Pokemon.HomeUseCaseDefault.fetchPokemons(page: Swift.String, callback: (Swift.Array&lt;Pokemon.ListPokemon&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pokemon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewierowati/Documents/Pokemon/Pokemon/Pokemon/Network/UseCase/HomeUseCaseDefault.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "734">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C50E837C-5F8D-41A1-B83E-3C50DBE4BDAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokemon/Network/UseCase/HomeUseCaseDefault.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37">
+            <Locations>
+               <Location
+                  uuid = "C50E837C-5F8D-41A1-B83E-3C50DBE4BDAF - 263db4d1eb912bdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in closure #1 (Pokemon.PokemonData) -&gt; () in closure #1 (Swift.Optional&lt;Pokemon.ListPokemonResponse&gt;) -&gt; () in Pokemon.HomeUseCaseDefault.fetchPokemons(page: Swift.String, callback: (Swift.Array&lt;Pokemon.ListPokemon&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pokemon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewierowati/Documents/Pokemon/Pokemon/Pokemon/Network/UseCase/HomeUseCaseDefault.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "809">
+               </Location>
+               <Location
+                  uuid = "C50E837C-5F8D-41A1-B83E-3C50DBE4BDAF - 263db4d1eb912bdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Int&gt;) -&gt; () in closure #1 (Pokemon.PokemonData) -&gt; () in closure #1 (Swift.Optional&lt;Pokemon.ListPokemonResponse&gt;) -&gt; () in Pokemon.HomeUseCaseDefault.fetchPokemons(page: Swift.String, callback: (Swift.Array&lt;Pokemon.ListPokemon&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pokemon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewierowati/Documents/Pokemon/Pokemon/Pokemon/Network/UseCase/HomeUseCaseDefault.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "852">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F34A5BE-2816-4970-BE6C-A7B68C06AE12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokemon/Network/UseCase/HomeUseCaseDefault.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45">
+            <Locations>
+               <Location
+                  uuid = "4F34A5BE-2816-4970-BE6C-A7B68C06AE12 - 287e90f960d708a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Pokemon.ListPokemonResponse&gt;) -&gt; () in Pokemon.HomeUseCaseDefault.fetchPokemons(page: Swift.String, callback: (Swift.Array&lt;Pokemon.ListPokemon&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pokemon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewierowati/Documents/Pokemon/Pokemon/Pokemon/Network/UseCase/HomeUseCaseDefault.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1546">
+               </Location>
+               <Location
+                  uuid = "4F34A5BE-2816-4970-BE6C-A7B68C06AE12 - 287e90f960d708a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Pokemon.ListPokemonResponse&gt;) -&gt; () in Pokemon.HomeUseCaseDefault.fetchPokemons(page: Swift.String, callback: (Swift.Array&lt;Pokemon.ListPokemon&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Pokemon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewierowati/Documents/Pokemon/Pokemon/Pokemon/Network/UseCase/HomeUseCaseDefault.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1608">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8A3C94C-5A94-42A8-B3C3-0415ADC3D881"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokemon/Presentation/HomeView/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchPokemon()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

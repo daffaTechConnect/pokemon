@@ -9,5 +9,5 @@ import Foundation
 
 protocol HomeUseCase {
     
-    mutating func fetchPokemons() async throws -> [ListPokemon]
+    func fetchPokemons() async throws -> [ListPokemon]
 }
