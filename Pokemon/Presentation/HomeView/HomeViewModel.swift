@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import Combine
 
 class HomeViewModel: ObservableObject {
     private var homeUseCase: HomeUseCase
+    private var cancellables = Set<AnyCancellable>()
     
     @Published var listPokemon: [ListPokemon] = []
     
@@ -17,12 +19,19 @@ class HomeViewModel: ObservableObject {
     }
     
     func fetchPokemon() {
-        DispatchQueue.main.async {
-            Task {
-                let newListPokemon = try await self.homeUseCase.fetchPokemons()
-                self.listPokemon.append(contentsOf: newListPokemon)
+        let _ = self.homeUseCase.fetchPokemons()
+            .receive(on: RunLoop.main)
+            .sink { completion in
+            switch completion {
+            case .failure(let error):
+                print("error fetch pokemon: \(error.localizedDescription)")
+            case .finished:
+                print("finished")
             }
-        }
+        } receiveValue: { [weak self] newList in
+            self?.listPokemon.append(contentsOf: newList)
+        }.store(in: &self.cancellables)
+
     }
     
     func shouldLoadNextPage(index: UUID) -> Bool {

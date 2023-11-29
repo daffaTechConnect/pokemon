@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import Combine
 
 protocol HomeUseCase {
     
-    func fetchPokemons() async throws -> [ListPokemon]
+    func fetchPokemons() -> Future<[ListPokemon], Error>
 }
